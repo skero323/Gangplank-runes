@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gp runes</title>
+    <style>
+        body {
+            zoom: 130%;
+            text-align: center;
+            background-image: url(https://images2.alphacoders.com/840/thumb-1920-840511.jpg);
+            background-size: cover;
+            color: white;
+        }
+
+        #imena {
+            display: inline-block;
+            margin-bottom: 1%;
+            padding: 20px;
+        }
+        #himer{
+            text-align: center;
+            margin-left: -5%;
+            width: 110%;
+        }
+        #izpis{
+            margin-top: 1%;
+        }
+        .float {
+            width: 50%;
+            float: left;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="imena">
+        <div class="float">
+            <div>Qiyana = qiyana</div>
+            <div>Tahm Kench = tahm</div>
+            <div>Cassiopeia = cass</div>
+            <div>Dr Mundo = mundo</div>
+            <div>Lissanda = liss</div>
+            <div>Aurelion Sol = sol</div>
+        </div>
+        <div class="float">
+            <div id="himer">Heimerdinger = heimer</div>
+            <div>Mordekaiser = morde</div>
+            <div>Orianna = ori</div>
+            <div>Twisted fate = tf</div>
+            <div>Master Yi = yi</div>
+            <div>Xin Zhao = xin</div>
+        </div>
+    </div>
+    <form id="form">
+        <input type="text" placeholder="Ime champa" id="ime">
+        <input type="submit" value="Find">
+    </form>
+    <div id="izpis"></div>
+    <script src="champs.js"></script>
+</body>
+
+</html>
