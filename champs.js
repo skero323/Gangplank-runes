@@ -602,18 +602,14 @@ const champs = [
         "id": "zyra",
     }
 ]
-//document.getElementById("izpis").innerHTML = champs[0]["id"];
 let form = document.getElementById("form")
 form.addEventListener("submit", event => {
     event.preventDefault();
     let ime = document.getElementById("ime").value;
     let rune = document.getElementById("izpis");
-    //let hp = document.getElementById("hp");
-    //let armor = document.getElementById("armor");
     for (let i = 0; i < champs.length; i++) {
         if (champs[i]["id"] == ime) {
             rune.innerHTML = champs[i]["rune"];
-            //hp.innerHTML = "Health "+champs[i]["stats"]["hp"];
         }
     }
 })
